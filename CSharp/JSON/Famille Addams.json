@@ -1,0 +1,56 @@
+[
+  {
+    "reservation": {
+      "nom": "Famille Addams",
+      "idLiaison": 3,
+      "date": "2025-11-8",
+      "heure": "14:15",
+      "horodatage": "2026-01-15 08:41:05"
+    },
+    "passagers" : [
+      {
+        "nom": "Uludag",
+        "prenom": "Hasbi",
+        "codeCategorie": "enf417"
+      },
+      {
+        "nom": "eEFFF",
+        "prenom": "BBB",
+        "codeCategorie": "ancomp"
+      }
+    ],
+    "vehicules": [
+      {
+        "codeCategorie": "cartand",
+        "quantite": 2
+      }
+    ]
+  },
+  {
+    "reservation": {
+      "nom": "Famille Addams",
+      "idLiaison": 4,
+      "date": "2025-11-8",
+      "heure": "17:45",
+      "horodatage": "2026-01-15 08:41:05"
+    },
+    "passagers" : [
+      {
+        "nom": "Uludag",
+        "prenom": "Hasbi",
+        "codeCategorie": "enf417"
+      },
+      {
+        "nom": "eEFFF",
+        "prenom": "BBB",
+        "codeCategorie": "ancomp"
+      }
+    ],
+    "vehicules": [
+      {
+        "codeCategorie": "cartand",
+        "quantite": 2
+      }
+    ]
+  }
+]

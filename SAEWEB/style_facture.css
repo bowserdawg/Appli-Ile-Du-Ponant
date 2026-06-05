@@ -1,0 +1,121 @@
+
+div.facture {
+    width: 210mm;
+  min-height: 297mm;
+  margin: 0 auto 40px auto;
+  padding: 20mm;
+
+  background: white;
+  border: 2px solid black;
+  box-sizing: border-box;
+
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+}
+
+#ImgFact {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+div.facture h1 {
+    text-align: center;
+
+}
+
+p.date {
+  margin: 0 0 30px 50px;
+  font-size: 20px;
+}
+
+/* style tableau */
+
+
+table#Prixpers {
+  border-collapse: collapse;
+  border: 2px solid rgb(119, 45, 45);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin: auto; /* met automatiquement le tableau au centre */
+ 
+
+}
+
+table#PrixVehic {
+  border-collapse: collapse;
+  border: 2px solid rgb(119, 45, 45);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin: auto; /* met automatiquement le tableau au centre */
+ 
+
+}
+
+
+
+th {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+  font-weight: bold;
+}
+
+td {
+  border: 1px solid rgb(160 160 160);
+  text-align: center;
+}
+
+label#date {
+  
+  font-weight: bold;
+}
+
+
+p.infoFact {
+  margin: 10px 0 0 50px;
+}
+
+p.infoRes {
+  margin: 10px 0 0 50px;
+}
+
+
+
+p#PrixpersTotal {
+  margin:  10px 0px 0px 150px;
+  text-align: center;
+}
+
+
+
+td.nb {
+  font-weight: bold;
+}
+
+
+
+p#PrixTotal {
+  margin:  10px 0px 30px 150px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+p#PrixVehicTotal {
+  margin:  10px 0px 0px 150px;
+  text-align: center;
+}
+
+p.title {
+  padding-left: 60px;
+  font-weight: bold;
+}
+
+/* Les vehicules */
+.cardVehicules {
+  background-color: brown;
+}

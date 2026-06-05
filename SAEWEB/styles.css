@@ -1,0 +1,304 @@
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+#logo {
+    width: 300px;
+    border: 10 dashed ;
+}
+
+
+.top-bar {
+    display: flex;
+    align-items: center;        /* logo et nav centrés verticalement */
+    gap: 12px;                  /* espace entre le logo et le menu */
+    padding: 10px 20px;
+
+}
+
+nav {
+    display: flex;
+    border: 2px solid;
+    padding: 10px 20px;
+    gap: 20px;
+    justify-content: left;
+    align-items: center;
+    border-radius: 25px;
+}
+
+
+table#stat {
+     border-collapse: collapse;
+  border: 2px solid rgb(119, 45, 45);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin: auto; /* met automatiquement le tableau au centre */
+}
+
+th {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+  font-weight: bold;
+}
+
+td {
+  border: 1px solid rgb(160 160 160);
+  text-align: center;
+}
+
+
+
+h1#titStat {
+  text-align: center;
+}
+
+
+
+button.menu {
+    border-radius: 25px;
+    text-align:center;
+}
+
+button.active {
+    background-color: #3498db; /* bleu par exemple */
+    color: rgb(219, 39, 39);
+    border-radius: 25px;
+}
+
+button.menu:hover {
+    background-color: red;
+    border-radius: 25px;
+}
+
+a.menu {
+    text-decoration: none;
+    
+}
+
+#BoardPass {
+    border: 4px dashed black ;
+    border-radius: 25px;
+    width: 75%;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #0b638c;
+    
+}
+
+
+
+#BoardPass > header,
+#BoardPass > section {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+
+
+
+#BoardPassVehic {
+    border: 4px dashed black ;
+    border-radius: 25px;
+    width: 75%;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #0b638c;
+}
+
+
+#BoardPassVehic > header,
+#BoardPassVehic > section {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+
+.info {
+    color: white;
+}
+
+
+
+
+.imgemb {
+    height: 100px;
+    border: 1.5px solid black;
+    border-radius: 25px;
+}
+
+
+
+
+header.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+header.titre {
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+section.prix {
+    border: 2px #3498db solid;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px;
+
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+
+section.info {
+    border: 2px #3498db solid;
+    border-radius: 25px;
+    
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+  
+}
+
+
+.info:hover {
+    border-color:rgb(219, 39, 39);
+}
+
+#ident {
+    display: flex;
+
+    justify-content: center;
+    width: 120px;
+
+    margin: 20px 0 20px 30px;
+    padding: 10px;
+
+    border-radius: 25px;
+
+}
+
+
+.facture {
+    padding: 20px;
+
+    border-radius: 25px;
+
+    text-decoration: none;
+}
+
+div.dashboard {
+    justify-content: center;
+    padding: 30px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.rate {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.choix {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Pour tout la carte */
+.carte{
+    display: flex;
+    flex-direction: row;
+    background-color: #0b638c;;
+    border: 4px solid black;
+    margin-right: 600px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* Le logo au dessus de la carte*/
+.image_carte {
+    height: 70px;
+    width: 220px;
+    display: block;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+
+
+/* La case de gauche avec les infos de la reservation */
+
+.tab_gauche th {
+    text-align: left;
+    color: white;
+}
+
+.gauche tbody td {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.gauche table {
+    line-height: 35px;
+}
+
+/* La case de droite avec les infos du passager/vehicules*/
+.droite {
+    margin-left: 125px;
+}
+
+
+.droite>p {
+    color: white;
+}
+
+.droite_bloc {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/* Pour la couleur des cases voitures */
+.vert {
+    background-color: green;
+}
+.orange {
+    background-color: orange;
+}
+.rouge {
+    background-color: red;
+}

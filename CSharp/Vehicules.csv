@@ -1,0 +1,11 @@
+Trottinette électrique;trot
+Vélo ou remorque à vélo;velo
+Vélo électrique;velelec
+Vélo cargo ou tandem;cartand
+Deux-roues <= 125 cm3;mobil
+Deux-roues > 125 cm3;moto
+Voiture moins de 4 m;cat1
+Voiture de 4 m à 4.39 m;cat2
+Voiture de 4.40 m à 4.79 m;cat3
+Voiture 4.80 m et plus;cat4
+Camping-car - véhicule plus de 2.10 de haut;camp

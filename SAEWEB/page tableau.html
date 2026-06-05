@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <meta charset="UTF-8">
+    <title>Tableau</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <body>
+        <div class="top-bar">
+        <img id="logo" src="CAN.png">
+
+        <nav>
+
+            
+            <button class="menu">
+                <a class="menu" href="CAN accuel.html">Accueil</a>
+            </button>
+
+
+            <button class="active">
+                <a class="menu"href="page tableau.html">Tableau de bord</a>
+            </button>
+
+
+            <button class="menu">
+                <a class="menu" href="page embarquement.html">Voir votre carte d'embarquement</a>
+            </button>
+
+
+            <button class="menu">
+                <a class="menu" href="page statistique.html">Nos chiffres</a>
+            </button>
+
+        </nav>
+        </div>
+
+
+        <div class="dashboard">
+
+
+            <h1 id="placeDispoTitre"> Voici nos places de réservation disponibles pour le </h1>
+
+        <div class="filters">
+          <!-- On execute la fonction pour remplir chaque fois que une date est choisi-->
+          <select id="liaison" onclick="remplirTrav()">
+            
+         </select>
+
+        <!-- On execute la fonction pour remplir chaque fois que une date est choisi-->
+        <input type="date" id="date" onchange="remplirTrav()" />
+        
+        <!--Remplissage des traversée -->
+        <select id="traversee">
+           
+        </select>
+
+        <button onclick="afficherTab()" > Voire le taux de remplissage </button>
+
+        <br>
+        <hr>
+
+        </div>
+    
+            <div class="cards">
+              <div class="card">
+                <h3>Passagers</h3>
+                <h3 class="restant">Place restant pour les passagers :</h3>
+                <p class="rate" id="ratePass"></p>
+              </div>
+          
+              <div class="card" class="vert" id="vehiculeCard">
+
+                  <h3>Véhicules (cat. 1 à 4)</h3>
+                  <h3 class="restant">Place restant pour les Véhicules : </h3>
+                  <p class="rate" id="rateVeh"></p>
+              </div>
+            </div>
+
+        </div>
+
+
+
+
+    </body>
+
+
+    <!-- Insertion du script javascript-->
+	<script src="js/script_tableau_de_bord.js"></script>
+</html>

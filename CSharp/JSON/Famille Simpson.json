@@ -1,0 +1,86 @@
+[
+  {
+    "reservation": {
+      "nom": "Famille Simpson",
+      "idLiaison": 3,
+      "date": "2025-11-10",
+      "heure": "14:15",
+      "horodatage": "2026-01-14 11:12:00"
+    },
+    "passagers" : [
+      {
+        "nom": "Simpson",
+        "prenom": "Homer",
+        "codeCategorie": "adu26p"
+      },
+      {
+        "nom": "Simpson",
+        "prenom": "Marge",
+        "codeCategorie": "adu26p"
+      },
+      {
+        "nom": "Simpson",
+        "prenom": "Lisa",
+        "codeCategorie": "enf417"
+      },
+      {
+        "nom": "Simpson",
+        "prenom": "Bart",
+        "codeCategorie": "enf417"
+      },
+      {
+        "nom": "Simpson",
+        "prenom": "Maggie",
+        "codeCategorie": "bebe"
+      }
+    ],
+    "vehicules": [
+      {
+        "codeCategorie": "cat3",
+        "quantite": 1
+      }
+    ]
+  },
+  {
+    "reservation": {
+      "nom": "Famille Simpson",
+      "idLiaison": 4,
+      "date": "2025-11-10",
+      "heure": "18:00",
+      "horodatage": "2026-01-14 11:12:00"
+    },
+    "passagers" : [
+      {
+        "nom": "Simpson",
+        "prenom": "Homer",
+        "codeCategorie": "adu26p"
+      },
+      {
+        "nom": "Simpson",
+        "prenom": "Marge",
+        "codeCategorie": "adu26p"
+      },
+      {
+        "nom": "Simpson",
+        "prenom": "Lisa",
+        "codeCategorie": "enf417"
+      },
+      {
+        "nom": "Simpson",
+        "prenom": "Bart",
+        "codeCategorie": "enf417"
+      },
+      {
+        "nom": "Simpson",
+        "prenom": "Maggie",
+        "codeCategorie": "bebe"
+      }
+    ],
+    "vehicules": [
+      {
+        "codeCategorie": "cat3",
+        "quantite": 1
+      }
+    ]
+  }
+]

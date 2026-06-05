@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <meta charset="UTF-8">
+    <title>Statistique</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <body>
+        <div class="top-bar">
+        <img id="logo" src="CAN.png">
+        
+            <nav>
+                <button class="menu">
+                    <a class="menu" href="CAN accuel.html">Accueil</a>
+                </button>
+
+                <button class="menu">
+                    <a class="menu" href="page tableau.html">Tableau de bord</a>
+                </button>
+
+
+
+                <button class="menu">
+                    <a class="menu" href="page embarquement.html">Voir votre carte d'embarquement</a>
+                </button>
+
+
+
+                <button class="active">
+                    <a class="menu" href="page statistique.html">Nos chiffres</a>
+                </button>
+
+            </nav>    
+              
+        </div>
+        <br>
+        <H1 id="titStat">Voici des chiffres de notre entreprise pour novembre 2025</H1>
+        <br>
+        <table id="stat">
+            <thead>
+                <th>Liaisons</th>
+                <th>CA des passagers </th>
+                <th>nombre de passagers</th>
+                <th>CA des véhicules</th>
+                <th>Nombre de véhicules</th>
+            </thead>
+
+
+            <tbody>
+        
+                <tr>
+                    <th>Liaison 1</th>
+                    <td class="prixStat" id="11"></td>
+                    <td class="nbStat" id="12"></td>
+                    <td class="prixStat" id="13"></td>
+                    <td class="nbStat" id="14"></td>
+                </tr>
+                <tr>
+            
+                    <th>Liaison 2</th>
+                    <td class="prixStat" id="21"></td>
+                    <td class="nbStat" id="22"></td>
+                    <td class="prixStat" id="23"></td>
+                    <td class="nbStat" id="24"></td>
+                </tr>
+                <tr>
+                    <th>Liaison 3 </th>
+                    <td class="prixStat" id="31"></td>
+                    <td class="nbStat" id="32"></td>
+                    <td class="prixStat" id="33"></td>
+                    <td class="nbStat" id="34"></td>
+                </tr>
+                <tr>
+                    <th>Liaison 4</th>
+                    <td class="prixStat" id="41"></td>
+                    <td class="nbStat" id="42"></td>
+                    <td class="prixStat" id="43"></td>
+                    <td class="nbStat" id="44"></td>
+               </tr>
+                <tr>
+                    <th>Total </th>
+                    <td class="prixStat" id="51"></td>
+                    <td class="nbStat" id="52"></td>
+                    <td class="prixStat"id="53"></td>
+                    <td class="nbStat" id="54"></td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <h2 id="CAGlobal">Chiffres d'affaires global pour novembre 2025 : </h2>
+        
+        <!-- Insertion du script javascript-->
+	    <script src="js/script_stats.js"></script>
+    </body>
+</html>

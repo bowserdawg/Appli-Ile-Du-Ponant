@@ -1,0 +1,76 @@
+[
+  {
+    "reservation": {
+      "nom": "2",
+      "idLiaison": 3,
+      "date": "2025-11-6",
+      "heure": "11:45",
+      "horodatage": "2026-01-14 00:29:10"
+    },
+    "passagers" : [
+      {
+        "nom": "Uludag",
+        "prenom": "Bazbi",
+        "codeCategorie": "adu26p"
+      },
+      {
+        "nom": "Hello",
+        "prenom": "Neihgbour",
+        "codeCategorie": "adu26p"
+      },
+      {
+        "nom": "Uludag",
+        "prenom": "Hasbi",
+        "codeCategorie": "jeu1825"
+      },
+      {
+        "nom": "Minion",
+        "prenom": "le",
+        "codeCategorie": "ancomp"
+      }
+    ],
+    "vehicules": [
+      {
+        "codeCategorie ": "velelec",
+        "quantite": "10"
+      }
+    ]
+  },
+  {
+    "reservation": {
+      "nom": "2",
+      "idLiaison": 4,
+      "date": "2025-11-6",
+      "heure": "16:15n",
+      "horodatage": "2026-01-14 00:29:10"
+    },
+    "passagers" : [
+      {
+        "nom": "Uludag",
+        "prenom": "Bazbi",
+        "codeCategorie": "adu26p"
+      },
+      {
+        "nom": "Hello",
+        "prenom": "Neihgbour",
+        "codeCategorie": "adu26p"
+      },
+      {
+        "nom": "Uludag",
+        "prenom": "Hasbi",
+        "codeCategorie": "jeu1825"
+      },
+      {
+        "nom": "Minion",
+        "prenom": "le",
+        "codeCategorie": "ancomp"
+      }
+    ],
+    "vehicules": [
+      {
+        "codeCategorie ": "velelec",
+        "quantite": "10"
+      }
+    ]
+  }
+]

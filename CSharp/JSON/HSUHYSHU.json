@@ -1,0 +1,74 @@
+[
+  {
+    "reservation": {
+      "nom": "HSUHYSHU",
+      "idLiaison": 2,
+      "date": "2025-11-2",
+      "heure": "11:00",
+      "horodatage": "2026-01-15 11:17:50"
+    },
+    "passagers" : [
+      {
+        "nom": "Hasbi",
+        "prenom": "Uludag",
+        "codeCategorie": "jeu1825"
+      },
+      {
+        "nom": "Simpson",
+        "prenom": "Omer",
+        "codeCategorie": "adu26p"
+      },
+      {
+        "nom": "chat",
+        "prenom": "Chien",
+        "codeCategorie": "ancomp"
+      }
+    ],
+    "vehicules": [
+      {
+        "codeCategorie": "camp",
+        "quantite": 2
+      },
+      {
+        "codeCategorie": "moto",
+        "quantite": 2
+      }
+    ]
+  },
+  {
+    "reservation": {
+      "nom": "HSUHYSHU",
+      "idLiaison": 1,
+      "date": "2025-11-2",
+      "heure": "17:00",
+      "horodatage": "2026-01-15 11:17:50"
+    },
+    "passagers" : [
+      {
+        "nom": "Hasbi",
+        "prenom": "Uludag",
+        "codeCategorie": "jeu1825"
+      },
+      {
+        "nom": "Simpson",
+        "prenom": "Omer",
+        "codeCategorie": "adu26p"
+      },
+      {
+        "nom": "chat",
+        "prenom": "Chien",
+        "codeCategorie": "ancomp"
+      }
+    ],
+    "vehicules": [
+      {
+        "codeCategorie": "camp",
+        "quantite": 2
+      },
+      {
+        "codeCategorie": "moto",
+        "quantite": 2
+      }
+    ]
+  }
+]

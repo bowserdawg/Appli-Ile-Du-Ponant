@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <meta charset="UTF-8">
+    <title>Embarquement</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style_facture.css">
+
+    <body>
+        <div class="top-bar">
+            <img id="logo" src="CAN.png">
+
+
+            <nav>
+                <button class="menu">
+                    <a class="menu" href="CAN accuel.html">Accueil</a>
+                </button>
+
+
+                
+                <button class="menu">
+                    <a class="menu" href="page tableau.html">Tableau de bord</a>
+                </button>
+
+
+                <button class="active">
+                    <a class="menu" href="page embarquement.html">Voir votre carte d'embarquement</a>
+                </button>
+
+
+
+                <button class="menu">
+                    <a class="menu" href="page statistique.html">Nos chiffres</a>
+                </button>
+
+
+            </nav>
+        </div>
+
+        <div class="choix">
+            <input id="ident" type="text" placeholder="saisissez votre identifiant d'embarquement">
+            
+            <button class="facture" onclick="CreezCarte()"> 
+                Voir les cartes
+            </button>
+
+            <button class="facture" onclick="AfficherFacture()"> 
+                accédez à la facture
+            </button>
+        </div>
+
+        <br>
+
+        <hr>
+        <p>Aller</p>
+
+        <article id="containerCarteAller">
+        </article>
+
+        <hr>
+        <p>Facture</p>
+        <article id="containerFacture">
+
+        </div>
+
+        <!-- Insertion du script javascript-->
+		<script src="js/script_embarquement.js"></script>
+    </body>
+</html>
